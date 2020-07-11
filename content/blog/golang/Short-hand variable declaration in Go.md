@@ -1,0 +1,13 @@
+---
+title: "Short Hand Variable Declaration in Go"
+date: 2020-04-08T12:30:38+04:00
+publishdate: 2020-04-08T12:17:37+04:00
+---
+
+Variables in Go can have short-hand declarations, like this:
+
+`name := "Jane"`
+
+We can also define multiple variables this way, for example:
+
+`name, surname, age := "Jane", "Smith", 29`

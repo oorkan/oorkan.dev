@@ -1,0 +1,7 @@
+<footer id="site-footer" class="offset">
+    {{ if .Site.Menus.social }}
+  
+    {{ else }}
+      <p class='text-right'>&copy; {{ now.Format "2006" }}</p>
+    {{ end }}
+</footer>

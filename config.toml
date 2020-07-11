@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "oorkan"
+theme = "contrast-hugo-mod"
+
+#[menu]
+#    [[menu.social]]
+#        identifier = "twitter"
+#        name = "twitter"
+#        pre = "<i class='fa fa-twitter'></i>"
+#        url = "#"
+#    
+#    [[menu.social]]
+#        identifier = "github"
+#        name = "github"
+#        pre = "<i class='fa fa-github'></i>"
+#        url = "#"
+
+pluralizelisttitles = "false"
