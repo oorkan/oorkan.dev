@@ -1,7 +1,7 @@
 ---
 title: "Will Programmers Lose Their Jobs Because of GPT3"
-date: 2020-08-05T05:06:48Z
-publishdate: 2020-08-05T05:06:48Z
+date: 2020-08-06T12:27:48+04:00
+publishdate: 2020-08-06T12:27:48+04:00
 ---
 
 I heard about GPT3 a few days ago via а post on Twitter shared by {{<a href="https://twitter.com/_ericelliott" target="_blank">}}Eric Eliott{{</a>}} - a well-known professional in the JavaScript world.
@@ -10,13 +10,11 @@ Being honest, I never did anything related to AI or ML, literally nothing, not e
 
 **The Fear**
 
-I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of Artificial General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank">}}interviews{{</a>}} by the time 🤫 😁.
+I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of Artificial General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank">}}interviews{{</a>}} by the time. 🤫 😁
 
 **So, Will Programmers Lose Their Jobs Because of AI?**
 
-Short answer: *No*.
-
-Long answer: *Yes, of course...*
+Short answer: *No*. Long answer: *Yes, of course...*
 
 What a dilemma 🤔
 
@@ -32,7 +30,7 @@ If you do programming for years, you should realize by now that everything in pr
 
 You should ask yourself this question: *What's the most abstract language in the known nature?* 
 
-The one we use to speak, right? We haven't invented anything that's better and easier, yet. So, whenever we are closer to explain to the computer like we used to explain to another human, the productivity grows because we spend less time to abstract away more layers to do the same job.
+The one we use to speak, right? We haven't invented anything that's better and easier, yet. So, whenever we are closer to explain to a computer like we used to explain to another human, the productivity grows because we spend less time to abstract away more layers to do the same job.
 
 **Reason No. 2 - Economics 💲**
 
@@ -40,13 +38,13 @@ Automation is cheaper. Whenever a business has a chance to replace a worker by a
 
 **Reason No. 3 - Progress 🚀**
 
-It’s a question for philosophical debate what progress really means. But since we don’t have time for that, let’s assume that humanity is constantly progressing from the start of its history. If looking from this prisme, then the world is moving towards the tendency for making our lives easier. Programming languages evolved since the last century and the way we write software now is way easier than people were doing in the 80s, for example. But the constant improvement of programming languages can’t be limitless. The goal is to provide us human-interactable interface where we can talk with a computer in plain English - the most productive programming language in my opinion.
+It’s a question for philosophical debate what progress really means. But since we don’t have time for that, let’s assume that humanity is constantly progressing from the beginning of its history. If looking from this prisme, then the world is moving towards the tendency for making our lives easier. Programming languages evolved since the last century and the way we write software now is way easier than people were doing in the 80s, for example. But the constant improvement of programming languages can’t be limitless. The goal is to provide us human-interactable interface where we can talk with a computer in plain English - the most productive programming language in my opinion.
 
 &nbsp;
 
 **Conclusion**
 
-If we summarize the points above, then it’s clear, that the programming, as we understand it right now, will transform dramatically. This will happen because the technology will provide businesses new tools giving them an ability to directly interact with the computer without a need to hold a programmer as a 3rd party between their business logic and its software implementation. For most of us, this will cut jobs and salaries in certain programming fields.
+If we summarize the points above, then it’s clear, that the programming, as we understand it now, will transform dramatically. This will happen because the technology will provide businesses new tools giving them the ability to directly interact with a computer without a need to hold a programmer as a 3rd party between their business logic and its software implementation. For most of us, this will cut jobs and salaries in certain programming fields.
 
 **What areas will be affected first?**
 
@@ -60,7 +58,7 @@ You know, we, programmers, are known as people who lack correct predictions 😄
 
 Less programming jobs doesn't mean no programming jobs at all. There will still be a need for qualified specialists to move the things forward, for example, in testing, quality assurance, logical analysis, and many other things.
 
-I think we should invest our time learning stuff that has room for creativity and gives us the ability to create something new and express ourselves better. I also think that we should invest ourselves more in fundamental sciences, social interactions, philosophy, art… and everything else we are here for. If we can do that by programming, if we can build new and interesting things, then let’s do it. Humans are very good at expression and not at routine, let’s keep the routine for machines and fill our lives with more meaning. 📐 🔭 🚀 ❤️ 🌱 🌍 ☮️
+I think we should invest our time learning stuff that has room for creativity and gives us opportunities to create something new and express ourselves better. I also think that we should invest ourselves more in fundamental sciences, social interactions, philosophy, art… and everything else we are here for. If we can do that by programming, if we can build new and interesting things, then let’s do it. Humans are very good at expression and not at routine, let’s keep the routine for machines and fill our lives with more meaning. 📐 🔭 🚀 ❤️ 🌱 🌍 ☮️
 
 Hope you enjoyed it!
 
