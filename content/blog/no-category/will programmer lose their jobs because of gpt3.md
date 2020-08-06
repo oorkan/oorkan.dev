@@ -10,7 +10,7 @@ Being honest, I never did anything related to AI or ML, literally nothing, not e
 
 **The Fear**
 
-I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank">}}interviews{{</a>}} by the time 🤫 😁.
+I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of Artificial General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank">}}interviews{{</a>}} by the time 🤫 😁.
 
 **So, Will Programmers Lose Their Jobs Because of AI?**
 
