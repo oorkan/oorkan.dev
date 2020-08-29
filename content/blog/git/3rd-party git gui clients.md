@@ -1,5 +1,5 @@
 ---
-title: "List of 3rd-party Git GUI Clients"
+title: "3rd-party Git GUI Clients"
 date: 2020-08-29T21:51:40+04:00
 publishdate: 2020-08-29T23:51:40+04:00
 ---
