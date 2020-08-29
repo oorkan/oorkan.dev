@@ -16,10 +16,10 @@ After this, you'll be able to format your `docker ps` command output vertically 
 docker ps --format=$VERTICAL
 ```
 
-The shell script is available in my repo here:&nbsp;{{<a href="https://github.com/oorkan/docker_ps_vertical" target="_blank">}}github.com/oorkan/docker_ps_vertical{{</a>}}
+The shell script is available in my repo here:&nbsp;{{<a href="https://github.com/oorkan/docker_ps_vertical" target="_blank" rel="noopener noreferrer">}}github.com/oorkan/docker_ps_vertical{{</a>}}
 
 Many thanks to **Arthur Ulfeldt** and this course from Linkedin:
-{{<a href="https://www.linkedin.com/learning/learning-docker-2" target="_blank">}}Learning Docker by Arthur Ulfeldt{{</a>}}
+{{<a href="https://www.linkedin.com/learning/learning-docker-2" target="_blank" rel="noopener noreferrer">}}Learning Docker by Arthur Ulfeldt{{</a>}}
 
 
 

@@ -30,7 +30,7 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
-**Who's Tim Peters?** {{<a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)" target="_blank">}}Wiki{{</a>}}
+**Who's Tim Peters?** {{<a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)" target="_blank" rel="noopener noreferrer">}}Wiki{{</a>}}
 
-{{<a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)" target="_blank">}}![Tim Peters](https://res.cloudinary.com/oorkan/image/upload/v1590529947/blog/img/topics/python/timpeters_umih8m.jpg){{</a>}}
+{{<a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)" target="_blank" rel="noopener noreferrer">}}![Tim Peters](https://res.cloudinary.com/oorkan/image/upload/v1590529947/blog/img/topics/python/timpeters_umih8m.jpg){{</a>}}
 

@@ -4,7 +4,7 @@ date: 2020-04-24T23:11:42+04:00
 draft: 2020-04-24T23:11:42+04:00
 ---
 
-{{<a href="https://runjs.dev/" target="_blank">}}
+{{<a href="https://runjs.dev/" target="_blank" rel="noopener noreferrer">}}
 ![Run JS](https://res.cloudinary.com/oorkan/image/upload/v1587757892/blog/vid/topics/js/runJS_an4akz.gif)
 {{</a>}}
 
@@ -18,5 +18,5 @@ draft: 2020-04-24T23:11:42+04:00
    
    4. Lots of themes
 
-Can also be used for presentations. You can download it at {{<a href="https://runjs.dev/" target="_blank">}}runjs.dev{{</a>}}
+Can also be used for presentations. You can download it at {{<a href="https://runjs.dev/" target="_blank" rel="noopener noreferrer">}}runjs.dev{{</a>}}
 

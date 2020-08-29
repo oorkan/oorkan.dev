@@ -1,1 +1,1 @@
-<a href="{{ .Get `href` }}" target="{{ .Get `target` }}">{{ .Inner | markdownify }}</a>
+<a href="{{ .Get `href` }}" target="{{ .Get `target` }}" rel="{{ .Get `rel` }}">{{ .Inner | markdownify }}</a>

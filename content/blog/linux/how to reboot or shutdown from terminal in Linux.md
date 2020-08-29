@@ -66,7 +66,7 @@ To achieve this, we can again use the `shutdown` command as we did for reboot, t
 
 In the last example the `-P` flag stands for `poweroff` option which is the default when using the `shutdown` command.
 
-**Important!** Now, in some systems ( like {{<a href="https://mxlinux.org/" target="_blank">}}mxlinux{{</a>}}, for example ) we'll also need to specify `-h` flag for it to work, like this: 
+**Important!** Now, in some systems ( like {{<a href="https://mxlinux.org/" target="_blank" rel="noopener noreferrer">}}mxlinux{{</a>}}, for example ) we'll also need to specify `-h` flag for it to work, like this: 
 
 `#~ shutdown -hP <time_in_minutes>`
 
@@ -89,7 +89,7 @@ The `-c` flag here stands for `cancel` option. In some systems, instead of sched
 
 I used the phrase `Be careful with it` too many times in this article. If you feel stressed, then "relax" by listening some good music: 🎶
 
-{{<a href="https://youtu.be/48PJGVf4xqk" target="_blank">}}**Pink Floyd - One Of These Days - YouTube**{{</a>}}
+{{<a href="https://youtu.be/48PJGVf4xqk" target="_blank" rel="noopener noreferrer">}}**Pink Floyd - One Of These Days - YouTube**{{</a>}}
 
 
 

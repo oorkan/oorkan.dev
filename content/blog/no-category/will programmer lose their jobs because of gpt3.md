@@ -4,13 +4,13 @@ date: 2020-08-06T12:27:48+04:00
 publishdate: 2020-08-06T12:27:48+04:00
 ---
 
-I heard about GPT3 a few days ago via а post on Twitter shared by {{<a href="https://twitter.com/_ericelliott" target="_blank">}}Eric Eliott{{</a>}} - a well-known professional in the JavaScript world.
+I heard about GPT3 a few days ago via а post on Twitter shared by {{<a href="https://twitter.com/_ericelliott" target="_blank" rel="noopener noreferrer">}}Eric Eliott{{</a>}} - a well-known professional in the JavaScript world.
 
-Being honest, I never did anything related to AI or ML, literally nothing, not even a “Hello World” thing. If you want to hear something objective and technical, then this post is not the right place to look at. I decided to write it to just share my thought about GPT3 and Artificial Intelligence, in general. {{<a href="https://youtu.be/8psgEDhT1MM?t=74" target="_blank">}}GPT3 demos{{</a>}} made a lot of boom in the tech world, and now everyone (including me.. 😳) tries to jump into that "hype train".&nbsp;Although, I feel shame for saying this but here's a good chance to share my thought on the topic when it's on the peak because these technologies are very interesting to me. Ah yeah, forgot to say, when using the word "hype", I don't mean the technology itself but the noise that accumulates around it right now.
+Being honest, I never did anything related to AI or ML, literally nothing, not even a “Hello World” thing. If you want to hear something objective and technical, then this post is not the right place to look at. I decided to write it to just share my thought about GPT3 and Artificial Intelligence, in general. {{<a href="https://youtu.be/8psgEDhT1MM?t=74" target="_blank" rel="noopener noreferrer">}}GPT3 demos{{</a>}} made a lot of boom in the tech world, and now everyone (including me.. 😳) tries to jump into that "hype train".&nbsp;Although, I feel shame for saying this but here's a good chance to share my thought on the topic when it's on the peak because these technologies are very interesting to me. Ah yeah, forgot to say, when using the word "hype", I don't mean the technology itself but the noise that accumulates around it right now.
 
 **The Fear**
 
-I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of Artificial General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank">}}interviews{{</a>}} by the time. 🤫 😁
+I see some concerns my programmer colleagues share online, like "ahh.. this is the end of programming", "we’ll lose our jobs", and even "should I continue to learn React?", and so on. The question, overall, is: *Will programmers lose their jobs because of AI?* To answer this question we must first understand where the fear comes from. At first look, it's banal: people are afraid to be replaced by software handling the same job. But there are deeper levels, like the fear from the dominance of Artificial General Intelligence, etc, which can come from science fiction, apocalyptic movies, and, of course, Elon Musk's {{<a href="https://youtu.be/US95slMMQis?t=100" target="_blank" rel="noopener noreferrer">}}interviews{{</a>}} by the time. 🤫 😁
 
 **So, Will Programmers Lose Their Jobs Because of AI?**
 
@@ -62,4 +62,4 @@ I think we should invest our time learning stuff that has room for creativity an
 
 Hope you enjoyed it!
 
-Sincerely, {{<a href="https://twitter.com/qishmirian" target="_blank">}}@oorkan{{</a>}}.
+Sincerely, {{<a href="https://twitter.com/qishmirian" target="_blank" rel="noopener noreferrer">}}@oorkan{{</a>}}.

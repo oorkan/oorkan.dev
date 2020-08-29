@@ -15,8 +15,8 @@ In most distros we can also run the command `calendar` which will display a list
 
 &nbsp;
 
-Thanks {{<a href="https://twitter.com/davidwalshblog" target="_blank">}}@davidwalshblog{{</a>}} for bringing this to my attention.
+Thanks {{<a href="https://twitter.com/davidwalshblog" target="_blank" rel="noopener noreferrer">}}@davidwalshblog{{</a>}} for bringing this to my attention.
 
-{{<a href="https://twitter.com/davidwalshblog" target="_blank">}}
+{{<a href="https://twitter.com/davidwalshblog" target="_blank" rel="noopener noreferrer">}}
 ![@davidwalshblog](https://res.cloudinary.com/oorkan/image/upload/v1587322963/blog/img/topics/linux/davidwalshblog_oafgot.jpg)
 {{</a>}}

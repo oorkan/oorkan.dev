@@ -4,7 +4,7 @@ date: 2020-04-26T19:54:01+04:00
 publishdate: 2020-04-26T21:19:00+04:00
 ---
 
-{{<a href="https://www.w3schools.com/" target="_blank">}}W3Schools{{</a>}} Tryit Editor is a good built-in tool to quickly review some HTML and CSS, for example. But few of us use the awesome features it has. With these features, it can serve you as a light-weight version of {{<a href="https://codepen.io/" target="_blank">}}CodePen{{</a>}}.
+{{<a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">}}W3Schools{{</a>}} Tryit Editor is a good built-in tool to quickly review some HTML and CSS, for example. But few of us use the awesome features it has. With these features, it can serve you as a light-weight version of {{<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">}}CodePen{{</a>}}.
 
 **Switch Dark / Light Mode**
 
@@ -20,7 +20,7 @@ publishdate: 2020-04-26T21:19:00+04:00
 
 **Share / Save Your Code** &nbsp;&nbsp;( This is the coolest one! 🔥)
 
-See my code here: {{<a href="https://www.w3schools.com/code/tryit.asp?filename=GE8NIKIAM82Q" target="_blank">}}w3schools.com/code/tryit.asp?filename=GE8NIKIAM82Q{{</a>}} &nbsp;&nbsp;( Hit the `Run` button after opening )
+See my code here: {{<a href="https://www.w3schools.com/code/tryit.asp?filename=GE8NIKIAM82Q" target="_blank" rel="noopener noreferrer">}}w3schools.com/code/tryit.asp?filename=GE8NIKIAM82Q{{</a>}} &nbsp;&nbsp;( Hit the `Run` button after opening )
 
 ![W3Schools Tryit Editor - Share Code](https://res.cloudinary.com/oorkan/image/upload/v1587919734/blog/img/topics/no-category/w3schools/w3schools_share_oyjinu.jpg)
 
