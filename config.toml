@@ -17,3 +17,6 @@ theme = "contrast-hugo-mod"
 #        url = "#"
 
 pluralizelisttitles = "false"
+
+[params]
+    gid = "UA-176760402-2"

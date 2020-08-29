@@ -13,9 +13,21 @@
 {{- if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{- end }}
+{{- if .Site.Params.gid }}
+{{- if not ( in .Site.BaseURL "localhost" ) }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.gid }}'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ .Site.Params.gid }}');
+</script>
+{{- end }}
+{{- end }}
 
 <body>
-
 <header id="site-header" class="offset">
   <a href="{{ .Site.BaseURL }}">🏠 Home | {{ .Site.Title }}</a>
 </header>
