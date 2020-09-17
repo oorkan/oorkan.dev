@@ -7,7 +7,7 @@ publishdate: 2020-09-17T05:35:00+04:00
 
 **Using the `xwd` command**
 
-If our Linux OS is using the {{<a href="https://linux.die.net/man/7/x" target="_blank" rel="noopener noreferrer">}}X Window System{{</a>}}, we can use the `xwd` command there to make screenshots.
+If our Linux OS is using the {{<a href="https://linux.die.net/man/7/x" target="_blank" rel="noopener noreferrer">}}X Window System{{</a>}}, we can use the `xwd` command there to make screenshots. This command is part of a package called `x11-apps`. Under Debian-based operating systems, like Ubuntu, we can run `sudo apt install x11-apps` to install it. 
 
 ```bash
 
