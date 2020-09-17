@@ -1,7 +1,7 @@
 ---
 title: "Making Screenshots in Linux Using Terminal - Part 1"
 date: 2020-09-17T04:48:08+04:00
-publishdate: 2020-09-17T05:17:00+04:00
+draft: 2020-09-17T05:17:00+04:00
 ---
 
 
