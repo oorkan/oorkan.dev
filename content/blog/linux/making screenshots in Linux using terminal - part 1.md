@@ -19,7 +19,7 @@ The command above will provide us a pointer to select the window we want to make
 
 ![xwd screenshot illustration](https://res.cloudinary.com/oorkan/image/upload/v1600306477/blog/img/topics/linux/xwd_screenshot_illustration-480x_z4cnwo.png)
 
-To avoid this, we can use the `sleep` command and have a delay before taking the screenshot to successfully minimize, close, or bring backward all other windows we don't want to capture.
+To avoid this, we can use the `sleep` command and have a delay before taking a screenshot to successfully minimize, close, or bring backward all other windows we don't want to capture.
 
 ```bash
 
