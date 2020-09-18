@@ -27,7 +27,7 @@ To avoid this, we can use the `sleep` command and have a delay before taking the
 
 ```
 
-The `xwd` command uses its own format for screenshots. We can convert `.xwd` to standard image formats using a visual editor, like {{<a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer">}}GIMP{{</a>}}, or command-line tools, like the `convert` from {{<a href="https://imagemagick.org/script/index.php" target="_blank" rel="noopener noreferrer">}}ImageMagick{{</a>}}.
+The `xwd` command uses its own format for screenshots. We can convert `.xwd` to standard image formats by using a visual editor, like {{<a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer">}}GIMP{{</a>}}, or command-line tools, like the `convert` from {{<a href="https://imagemagick.org/script/index.php" target="_blank" rel="noopener noreferrer">}}ImageMagick{{</a>}}.
 
 ```bash
 
