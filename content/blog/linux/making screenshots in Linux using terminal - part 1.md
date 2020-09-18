@@ -46,7 +46,7 @@ By default, `xwd` will not include the window frame. To make it shown, we must u
 
 ![xwd screenshot illustration 2](https://res.cloudinary.com/oorkan/image/upload/v1600306477/blog/img/topics/linux/xwd_screenshot_illustration-2-480x_tcg3zd.png)
 
-And, finally, to make a screenshot of the entire screen with all windows, we should use the `root` flag. All frames of all windows will be included in this case. There's no need to specify the `frame` flag when using it with the `root` flag.
+And, finally, to make a screenshot of the entire screen with all windows, we should use the `root` flag. All frames of all windows will be included in this case. There's no need to specify the `frame` flag when the command with the `root` flag.
 
 ```bash
 
