@@ -15,7 +15,7 @@ If our Linux OS is using the {{<a href="https://linux.die.net/man/7/x" target="_
 
 ```
 
-The command above will provide us a pointer to select the window we want to make a screenshot of. The problem here is that when we have another window in the foreground, that window will be captured as well as shown in the illustration.
+The command above will provide us a pointer to select the window we want to make a screenshot of. The problem here is that when we have another window in the foreground, that window will be captured as well, as shown in the illustration.
 
 ![xwd screenshot illustration](https://res.cloudinary.com/oorkan/image/upload/v1600306477/blog/img/topics/linux/xwd_screenshot_illustration-480x_z4cnwo.png)
 
