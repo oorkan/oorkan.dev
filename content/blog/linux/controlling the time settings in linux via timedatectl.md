@@ -28,19 +28,19 @@ One of the most useful properties of this command is an ability to quickly set u
 
 To search through this list for timezone, we can use the `grep` command, like this: 
 
-{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_grep_c6lyh4.png" alt="timedatectl list-timezones grep" loading="lazy">}}
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600623305/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_grep_t6v2yt.png" alt="timedatectl list-timezones grep" loading="lazy">}}
 
 Now, to set up a timezone, we must use the `set-timezone` command.
 
 ```bash
 
-🚀 ~ timedatectl set-timezone 'America/New_York'
+🚀 ~ timedatectl set-timezone 'Europe/Paris'
 
 ```
 
 To see whether our changes took effect, we can run `timedatectl status` once again.
 
-{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_recheck_xg8uex.png" alt="timedatectl recheck" loading="lazy">}}
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600623305/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_recheck_wowdzs.png" alt="timedatectl recheck" loading="lazy">}}
 
 As we can see, the system timezone has changed, and we now have a different system time as well. The same way we can change only the system time, by using the `set-time` command and providing the date and time in `<YYYY-MM-DD HH:MM:SS>` format. I don't want to dive into this more, because setting up a system time manually doesn't seem to me the right way of doing things these days.
 
