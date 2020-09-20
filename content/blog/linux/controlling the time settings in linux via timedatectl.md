@@ -6,7 +6,7 @@ draft: true
 
 If our Linux OS has been booted using `systemd`, we can use a program called `timedatectl` to control its time settings. `timedatectl` is a utility of the `systemd` service manager and won't be available in systems that aren't using it {{<a href="https://distrowatch.com/search.php?defaultinit=Not+systemd" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}}. When typing `timedatectl status` in the terminal, it will show us the current time settings, like local time, time zone, network time synchronization, etc. Most of the systems, if not all, will pick this command as the default, and we can simply run `timedatectl` instead.
 
-![timedatectl status](https://res.cloudinary.com/oorkan/image/upload/v1600572014/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_status_hpzlqg.png) ![timedatectl](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_mvsqq4.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572014/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_status_hpzlqg.png" alt="timedatectl status" loading="lazy">}} {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_mvsqq4.png" alt="timedatectl" loading="lazy">}}
 
 To view this report in developer-friendly format, we can use the `show` command instead. However, in some older systems, this command may not be available.
 
@@ -24,11 +24,11 @@ One of the most useful properties of this command is an ability to quickly set u
 
 ```
 
-![timedatectl list-timezones](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_e5pzxk.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_e5pzxk.png" alt="timedatectl list-timezones" loading="lazy">}}
 
 To search through this list for timezone, we can use the `grep` command, like this: 
 
-![timedatectl list-timezones grep](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_grep_c6lyh4.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_grep_c6lyh4.png" alt="timedatectl list-timezones grep" loading="lazy">}}
 
 Now, to set up a timezone, we must use the `set-timezone` command.
 
@@ -40,7 +40,7 @@ Now, to set up a timezone, we must use the `set-timezone` command.
 
 To see whether our changes took effect, we can run `timedatectl status` once again.
 
-![timedatectl recheck](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_recheck_xg8uex.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_recheck_xg8uex.png" alt="timedatectl recheck" loading="lazy">}}
 
 As we can see, the system timezone has changed, and we now have a different system time as well. The same way we can change only the system time, by using the `set-time` command and providing the date and time in `<YYYY-MM-DD HH:MM:SS>` format. I don't want to dive into this more, because setting up a system time manually doesn't seem to me the right way of doing things these days.
 
@@ -66,7 +66,7 @@ or
 
 And after running `timedatectl` again, we have our network time on.
 
-![timedatectl set-ntp](https://res.cloudinary.com/oorkan/image/upload/v1600572014/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_set-ntp_v1rshf.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572014/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_set-ntp_v1rshf.png" alt="timedatectl set-ntp" loading="lazy">}}
 
 Now, after we activated our network time synchronization, we can syncronize the time. To do that, we must refer to a service under `systemd` called `systemd-timesyncd`. First, let's check its status by running:
 
@@ -76,7 +76,7 @@ Now, after we activated our network time synchronization, we can syncronize the 
 
 ```
 
-![systemctl status systemd-timesyncd](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/systemctl_status_systemd-timesyncd_robj1k.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/systemctl_status_systemd-timesyncd_robj1k.png" alt="systemctl status systemd-timesyncd" loading="lazy">}}
 
 If it's not active, then we can start it by running:
 
@@ -96,7 +96,7 @@ And, finally, we restart our `systemd-timesyncd.service` to syncronize our local
 
 Whola, if we run `timedatectl` again, we'll see that the time is syncronized now. 👏 🎉
 
-![timedatectl NTP syncronized](https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_NTP_syncronized_igwcnc.png)
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_NTP_syncronized_igwcnc.png" alt="timedatectl NTP syncronized" loading="lazy">}}
 
 &nbsp;
 
