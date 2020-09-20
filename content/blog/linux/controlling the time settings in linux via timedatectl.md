@@ -1,10 +1,10 @@
 ---
-title: "Controlling Time Settings in Linux via timedatectl"
+title: "Controlling the Time Settings in Linux via timedatectl"
 date: 2020-09-18T11:09:15+04:00
 draft: true
 ---
 
-If our Linux OS has been booted using `systemd`, we can use a program called `timedatectl` to control its time settings. `timedatectl` is utility of a `systemd` service manager and won't be available in systems that aren't using it {{<a href="https://distrowatch.com/search.php?defaultinit=Not+systemd" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}}. When typing `timedatectl status` in the terminal, it will show us the current time settings, like: local time, time zone, network time syncronization, etc. Most of the systems, if not all, will pick this command as the default, and we can simply run `timedatectl` instead.
+If our Linux OS has been booted using `systemd`, we can use a program called `timedatectl` to control its time settings. `timedatectl` is a utility of the `systemd` service manager and won't be available in systems that aren't using it {{<a href="https://distrowatch.com/search.php?defaultinit=Not+systemd" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}}. When typing `timedatectl status` in the terminal, it will show us the current time settings, like local time, time zone, network time synchronization, etc. Most of the systems, if not all, will pick this command as the default, and we can simply run `timedatectl` instead.
 
 ![timedatectl status](http://127.0.0.1/img/timedatectl_status.png) ![timedatectl](http://127.0.0.1/img/timedatectl.png)
 
@@ -30,7 +30,7 @@ To search through this list for timezone, we can use the `grep` command, like th
 
 ![timedatectl list-timezones grep](http://127.0.0.1/img/timedatectl_list-timezones_grep.png)
 
-Now, to set up a timezone, we use the `set-timezone` command.
+Now, to set up a timezone, we must use the `set-timezone` command.
 
 ```bash
 
@@ -42,13 +42,13 @@ To see whether our changes took effect, we can run `timedatectl status` once aga
 
 ![timedatectl recheck](http://127.0.0.1/img/timedatectl_recheck.png)
 
-As we can see, the system timezone has changed, and we now have a different system time as well. The same way we can change only the system time, by using the `set-time` command and providing the date-time in `<YYYY-MM-DD HH:MM:SS>` format. I don't want to dive into this more, because setting up a system time manually doesn't seem to me the right way of doing things nowadays.
+As we can see, the system timezone has changed, and we now have a different system time as well. The same way we can change only the system time, by using the `set-time` command and providing the date and time in `<YYYY-MM-DD HH:MM:SS>` format. I don't want to dive into this more, because setting up a system time manually doesn't seem to me the right way of doing things these days.
 
 &nbsp;
 
-**Network time syncronization or NTP**
+**Network time synchronization or NTP**
 
-`timedatectl` allows us to syncronize our local time with a network time by using a protocol called `NTP` which stands for `Network Time Protocol`. To turn on the network time syncronization, we should use the `set-ntp` command.
+`timedatectl` allows us to syncronize our local time with a network time by using a protocol called `NTP` which stands for `Network Time Protocol`. To turn on the network time synchronization, we should use the `set-ntp` command.
 
 ```bash
 
@@ -68,7 +68,7 @@ And after running `timedatectl` again, we have our network time on.
 
 ![timedatectl set-ntp](http://127.0.0.1/img/timedatectl_set-ntp.png)
 
-Now, after we activated our network time syncronization, we can syncronize the time. To do that, we must refer to a service under `systemd` called `systemd-timesyncd`. First, let's check its status by running:
+Now, after we activated our network time synchronization, we can syncronize the time. To do that, we must refer to a service under `systemd` called `systemd-timesyncd`. First, let's check its status by running:
 
 ```bash
 
@@ -94,7 +94,7 @@ And, finally, we restart our `systemd-timesyncd.service` to syncronize our local
 
 ```
 
-Whola, if we run `timedatectl` again, we'll see that the time is now syncronized. 👏 🎉
+Whola, if we run `timedatectl` again, we'll see that the time is syncronized now. 👏 🎉
 
 ![timedatectl NTP syncronized](http://127.0.0.1/img/timedatectl_NTP_syncronized.png)
 
@@ -102,6 +102,6 @@ Whola, if we run `timedatectl` again, we'll see that the time is now syncronized
 
 **Bonus 🍭🎈**
 
-We've talked about the time so much. It worths listening to one of the greatest musical pieces of all time about it: 🎶
+We've talked about time so much. It worths listening to one of the greatest musical pieces of all time about it: 🎶
 
 {{<a href="https://youtu.be/pgXozIma-Oc" target="_blank" rel="noopener noreferrer">}}**Pink Floyd - Time - YouTube**{{</a>}}
