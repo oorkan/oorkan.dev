@@ -1,5 +1,5 @@
 ---
-title: "Hugo: Show Drafts"
+title: "Hugo: Serve Drafts"
 date: 2020-08-25T08:35:05+04:00
 publishdate: 2020-08-25T08:35:05+04:00
 ---
