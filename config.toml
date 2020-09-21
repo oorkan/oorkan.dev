@@ -2,7 +2,7 @@ baseURL = "https://www.oorkan.dev/"
 languageCode = "en-us"
 title = "oorkan"
 theme = "contrast-hugo-mod"
-paginate = 20
+paginate = 15
 
 #[menu]
 #    [[menu.social]]
