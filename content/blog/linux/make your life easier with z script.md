@@ -108,6 +108,8 @@ By default, `z` will store its database in the user's home directory under the f
 
 `z` is a really powerful tool which can save us a lot of time. It's available in both bash and {{<a href="https://www.zsh.org/" target="_blank" rel="noopener noreferrer">}}Z shells (zsh){{</a>}}. You can also install it under {{<a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell" target="_blank" rel="noopener noreferrer">}}Power Shell{{</a>}} in Windows.
 
+{{<a href="https://github.com/badmotorfinger/z" target="_blank" rel="noopener noreferrer">}}github.com/badmotorfinger/z{{</a>}}
+
 ```ps
 
 PS> Install-Module -Name z
