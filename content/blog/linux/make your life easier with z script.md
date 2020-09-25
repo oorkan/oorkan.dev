@@ -1,7 +1,7 @@
 ---
 title: "Make Your Life Easier With Z Script"
 date: 2020-09-21T20:33:49+04:00
-draft: true
+publishdate: 2020-09-26T00:16:00+04:00
 ---
 
 When working in terminal, we often need to jump through different directories. Keeping the track of directories we've changed to can be a tough task. One option can be using the `history` command in Linux:
