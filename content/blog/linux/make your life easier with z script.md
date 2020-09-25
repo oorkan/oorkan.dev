@@ -116,4 +116,4 @@ PS> Install-Module -Name z
 
 &nbsp;
 
-Enjoy z life!!! Peace&Love 😊 👏 🎉
+Enjoy z life!!! Peace&Love 😊 ☮️
