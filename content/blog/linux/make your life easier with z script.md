@@ -43,15 +43,15 @@ I recommend to save it in user's home directory to easily access from our `.bash
 
 We have our z command available. Let's see what it is capable of. First of all, we need to jump around some directories so that `z` fills up some entries in its database. 
 
-{{<img src="http://localhost/img/cd_multiple-640x.png" alt="cd multiple" loading="lazy">}}
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1601061410/blog/img/topics/linux/make_your_life_easier_with_z_script/z-cd_dir_sv3frx.png" alt="cd dir" loading="lazy">}}
 
 Now, if we type `z` and hit `Enter`, we see that `z` stored some values of directories we've changed to.
 
-{{<img src="http://localhost/img/z-db-640x.png" alt="z db" loading="lazy">}}
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1601061722/blog/img/topics/linux/make_your_life_easier_with_z_script/z-db_lahxzy.png" alt="z db" loading="lazy">}}
 
 And now comes the awesome part. Let's change directory to `/home/nux/Pictures/family/2020-05/Armenia`. With `z`, we can just do `z Armenia` or type `z Ar` and hit the `Tab` key. `z` will figure out everything for us, and change to appropriate directory without a need to provide the full path to it.
 
-{{<img src="http://localhost/img/z-armenia-568x.png" alt="z armenia" loading="lazy">}} {{<img src="http://localhost/img/z-ar-tab-568x.png" alt="z ar tab" loading="lazy">}}
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1601061851/blog/img/topics/linux/make_your_life_easier_with_z_script/z-keyword_cdf8ie.png" alt="z keyword" loading="lazy">}} {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1601061911/blog/img/topics/linux/make_your_life_easier_with_z_script/z-autocomplete_mdxy7e.png" alt="z autocomplete" loading="lazy">}}
 
 Same way, we can change to other directories and this is just the small part of `z` capabilities. More information, available options, etc can be found right in the script, provided as commented documentation. You can view it by opening the script with some Text Editor or, for example, with `nano` in terminal. I'll also paste it here:
 
