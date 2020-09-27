@@ -12,7 +12,7 @@ In all examples, we need to be `root` or use the command with `sudo`.
 
 {{< highlight bash >}}🚀 ~ reboot{{< / highlight >}}
 
-**or**
+or
 
 {{< highlight bash >}}🚀 ~ poweroff --reboot{{< / highlight >}} 
 
@@ -36,7 +36,7 @@ This command can also be used with `-f` flag which stands for `skip fsck` option
 
 {{< highlight bash >}}🚀 ~ shutdown -r -f <time_in_minutes>{{< / highlight >}}
 
-**or**
+or
 
 {{< highlight bash >}}🚀 ~ shutdown -rf <time_in_minutes>{{< / highlight >}}
 
@@ -44,7 +44,7 @@ This command can also be used with `-f` flag which stands for `skip fsck` option
 
 {{< highlight bash >}}🚀 ~ shutdown -r -F <time_in_minutes>{{< / highlight >}}
 
-**or**
+or
 
 {{< highlight bash >}}🚀 ~ shutdown -rF <time_in_minutes>{{< / highlight >}}
 
@@ -52,7 +52,7 @@ If we want to reboot with 0 delay, then we can do:
 
 {{< highlight bash >}}🚀 ~ shutdown -rF 0{{< / highlight >}}
 
-**or**
+or
 
 {{< highlight bash >}}🚀 ~ shutdown -rF now{{< / highlight >}}
 
@@ -70,7 +70,7 @@ This command can also be used with `-f` flag which stands for `force` option.
 
 {{< highlight bash >}}🚀 ~ shutdown # We already know this command and some of its arguments, right? 🙂{{< / highlight >}}
 
-If no argument specified, then the system will shut down after 1 minute. We can do `shutdown now` **or** `shutdown 0` if we don't want any delays.
+If no argument specified, then the system will shut down after 1 minute. We can do `shutdown now` or `shutdown 0` if we don't want any delays.
 
 &nbsp;
 
@@ -80,7 +80,7 @@ To achieve this, we can again use the `shutdown` command as we did for reboot, t
 
 {{< highlight bash >}}🚀 ~ shutdown <time_in_minutes>{{< / highlight >}}
 
-**or**
+or
 
 {{< highlight bash >}}🚀 ~ shutdown -P <time_in_minutes>{{< / highlight >}}
 
