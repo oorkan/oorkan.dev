@@ -10,19 +10,19 @@ If our Linux OS has been booted using `systemd`, we can use a program called `ti
 
 To view this report in developer-friendly format, we can use the `show` command instead. However, in some older systems, this command may not be available.
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ timedatectl show
 
-```
+{{< / highlight >}}
 
 One of the most useful properties of this command is an ability to quickly set up a system timezone. Before setting up a timezone, we must first check available time zones and find the one we need. To do that we should use the `list-timezones` command.
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ timedatectl list-timezones
 
-```
+{{< / highlight >}}
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/timedatectl_list-timezones_e5pzxk.png" alt="timedatectl list-timezones" loading="lazy">}}
 
@@ -32,11 +32,11 @@ To search through this list for timezone, we can use the `grep` command, like th
 
 Now, to set up a timezone, we must use the `set-timezone` command.
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ timedatectl set-timezone 'Europe/Paris'
 
-```
+{{< / highlight >}}
 
 To see whether our changes took effect, we can run `timedatectl status` once again.
 
@@ -50,19 +50,19 @@ As we can see, the system timezone has changed, and we now have a different syst
 
 `timedatectl` allows us to syncronize our local time with a network time by using a protocol called `NTP` which stands for `Network Time Protocol`. To turn on the network time synchronization, we should use the `set-ntp` command.
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ timedatectl set-ntp 1
 
-```
+{{< / highlight >}}
 
 or
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ timedatectl set-ntp true
 
-```
+{{< / highlight >}}
 
 And after running `timedatectl` again, we have our network time on.
 
@@ -70,29 +70,29 @@ And after running `timedatectl` again, we have our network time on.
 
 Now, after we activated our network time synchronization, we can syncronize the time. To do that, we must refer to a service under `systemd` called `systemd-timesyncd`. First, let's check its status by running:
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ systemctl status systemd-timesyncd
 
-```
+{{< / highlight >}}
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1600572013/blog/img/topics/linux/controlling_the_time_settings_in_linux_via_timedatectl/systemctl_status_systemd-timesyncd_robj1k.png" alt="systemctl status systemd-timesyncd" loading="lazy">}}
 
 If it's not active, then we can start it by running:
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ sudo systemctl start systemd-timesyncd
 
-```
+{{< / highlight >}}
 
 And, finally, we restart our `systemd-timesyncd.service` to syncronize our local time with time on the NTP server.
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ sudo systemctl restart systemd-timesyncd
 
-```
+{{< / highlight >}}
 
 Whola, if we run `timedatectl` again, we'll see that the time is syncronized now. 👏 🎉
 

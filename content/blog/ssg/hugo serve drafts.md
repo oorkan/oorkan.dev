@@ -8,18 +8,18 @@ publishdate: 2020-08-25T08:35:05+04:00
 
 To show drafts when running a Hugo server, we need to use a flag called `--buildDrafts`:
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ hugo serve --buildDrafts
 
-```
+{{< / highlight >}}
 or, simply:
 
-```bash
+{{< highlight bash >}}
 
 🚀 ~ hugo serve -D
 
-```
+{{< / highlight >}}
 &nbsp;
 
 {{<a href="https://gohugo.io/documentation/" target="_blank" rel="noopener noreferrer">}}Learn more about Hugo{{</a>}}.

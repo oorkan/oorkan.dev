@@ -10,9 +10,9 @@ This command will define or display aliases of commands. When typed without any 
 
 To define alias, we do:
 
-```bash
+{{< highlight bash >}}
 	alias foo=bar
-```
+{{< / highlight >}}
 
 **2. clear**
 

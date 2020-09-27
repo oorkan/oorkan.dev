@@ -6,8 +6,16 @@ publishdate: 2020-04-08T12:17:37+04:00
 
 Variables in Go can have short-hand declarations, like this:
 
-`name := "Jane"`
+{{< highlight go >}}
+
+name := "Jane"
+
+{{< / highlight >}}
 
 We can also define multiple variables this way, for example:
 
-`name, surname, age := "Jane", "Smith", 29`
+{{< highlight go >}}
+
+name, surname, age := "Jane", "Smith", 29
+
+{{< / highlight >}}

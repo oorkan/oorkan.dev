@@ -6,7 +6,7 @@ publishdate: 2020-05-27T01:34:41+04:00
 
 Run `python -c "import this"` in terminal.
 
-```
+{{< highlight text >}}
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -28,7 +28,7 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-```
+{{< / highlight >}}
 
 **Who's Tim Peters?** {{<a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)" target="_blank" rel="noopener noreferrer">}}Wiki{{</a>}}
 
