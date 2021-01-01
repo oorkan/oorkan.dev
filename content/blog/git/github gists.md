@@ -28,6 +28,6 @@ To receive notifications when some Gist changes, we can "Follow" it.
 
 <!-- Image -->
 
-To see all your gists you simply go to {{<a href="gist.github.com/oorkan" target="_blank" rel="noopener noreferrer">}}gist.github.com/<username><{{</a}}>, like {{<a href="gist.github.com/oorkan" target="_blank" rel="noopener noreferrer">}}gist.github.com/oorkan<{{</a}}>.
+To see all your gists you simply go to {{<a href="gist.github.com/oorkan" target="_blank" rel="noopener noreferrer">}}gist.github.com/<username>{{</a>}}, like {{<a href="gist.github.com/oorkan" target="_blank" rel="noopener noreferrer">}}gist.github.com/oorkan{{</a>}}.
 
 Gists can be useful in many situations and serve you and your team. They can also save a lot of time for you because their creation and setup is way more faster than a regular repository, just one url away from you.
