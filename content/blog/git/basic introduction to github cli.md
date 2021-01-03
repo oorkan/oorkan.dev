@@ -56,4 +56,16 @@ We can now copy our newly generated token and paste it in the terminal.
 
 **The last step: choosing the git protocol**
 
-Now, when we are authorized either via web browser or auth token, we can move to the last step, where we choose the Git protocol being used to interact with the GitHub host. We have two options there: HTTPS and SSH.
+Now, when we are authorized either via web browser or auth token, we can move to the last step, where we choose the Git protocol being used to interact with the GitHub host. We have two options there: HTTPS and SSH. I prefer to use SSH. If everything run smoothly, we'll be able to verify that we are logged in by running the following command in the terminal:
+
+{{< highlight bash >}}
+
+🚀 ~ gh auth status
+
+{{< / highlight >}}
+
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609635633/blog/img/topics/git/github_cli_setup/gh_auth_status_ftq5kc.png" alt="gh auth status" loading="lazy">}}
+
+&nbsp;
+
+Whola! Phew...
