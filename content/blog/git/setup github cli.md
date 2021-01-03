@@ -92,4 +92,4 @@ Now, when we are authorized either via web browser or auth token, we can move to
 
 &nbsp;
 
-Whola! Phew...
+Whola! Phew... 🥴
