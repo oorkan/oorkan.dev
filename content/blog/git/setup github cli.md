@@ -1,5 +1,5 @@
 ---
-title: "Basic Introduction to GitHub CLI"
+title: "Setup GitHub CLI"
 date: 2021-01-01T22:56:50+04:00
 draft: true
 ---
