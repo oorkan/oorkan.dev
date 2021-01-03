@@ -4,6 +4,30 @@ date: 2021-01-01T22:56:50+04:00
 draft: true
 ---
 
+**Installation**
+
+The easiest way to install the GitHub CLI under Linux or Mac is to use Homebrew:
+
+{{< highlight bash >}}
+
+🚀 ~ brew install gh
+
+{{< / highlight >}}
+
+Under Linux, the GitHub CLI is also available via `snapd` but on the `edge` channel (dev builds).
+
+{{< highlight bash >}}
+
+🚀 ~ sudo snap install --edge gh
+
+{{< / highlight >}}
+
+And under Windows, we can just use the {{<a href="https://github.com/cli/cli/releases/download/v1.4.0/gh_1.4.0_windows_amd64.msi" target="_blank" rel="noopener noreferrer">}}MSI Installer{{</a>}}.
+
+Other installation instructions and methods are available at {{<a href="https://cli.github.com/manual/installation" target="_blank" rel="noopener noreferrer">}}cli.github.com/manual/installation{{</a>}}.
+
+&nbsp;
+
 **Authentication**
 
 Before using the Github CLI, first, we need to authenticate with GitHub host. To do that we run the following command in the terminal:
