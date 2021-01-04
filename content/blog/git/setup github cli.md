@@ -1,12 +1,12 @@
 ---
 title: "Setup GitHub CLI"
-date: 2021-01-01T22:56:50+04:00
-draft: true
+date: 2021-01-04T17:30:00+04:00
+publishdate: 2021-01-04T17:30:00+04:00
 ---
 
 **Installation**
 
-The easiest way to install the GitHub CLI under Linux or Mac is to use Homebrew:
+The easiest way to install the GitHub CLI (henceforth `gh`) under Linux or Mac is to use {{<a href="https://gist.github.com/oorkan/6e4f44652c1458032d20d517d52ab608" target="_blank" rel="noopener noreferrer">}}Homebrew{{</a>}}:
 
 {{< highlight bash >}}
 
@@ -14,7 +14,7 @@ The easiest way to install the GitHub CLI under Linux or Mac is to use Homebrew:
 
 {{< / highlight >}}
 
-Under Linux, the GitHub CLI is also available via `snapd` but on the `edge` channel (dev builds).
+Under Linux, `gh` is also available via `snapd` on the `edge` channel (dev builds).
 
 {{< highlight bash >}}
 
@@ -30,7 +30,7 @@ Other installation instructions and methods are available at {{<a href="https://
 
 **Authentication**
 
-Before using the Github CLI, first, we need to authenticate with GitHub host. To do that we run the following command in the terminal:
+Before using the `gh`, first, we need to authenticate in GitHub. To do that we run the following command in the terminal:
 
 {{< highlight bash >}}
 
@@ -38,11 +38,11 @@ Before using the Github CLI, first, we need to authenticate with GitHub host. To
 
 {{< / highlight >}}
 
-We see that gh wants us to choose between the github.com account and Github Enterprise Server account. The first one is a regular account we use to work in GitHub. Besides this, GitHub also offers enterprise services, and Github Enterprise Server account refers to that. See the page.
+We see that `gh` wants us to choose between the Github.com account and the Github Enterprise Server account. The first one is a regular account we use to work in GitHub. Besides this, GitHub offers enterprise services, and the Github Enterprise Server account refers to that. {{<a href="https://github.com/enterprise" target="_blank" rel="noopener noreferrer">}}See the page{{</a>}}.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609535399/blog/img/topics/git/github_cli_setup/gh_auth_login-q1_dfqlep.png" alt="gh auth login - q1" loading="lazy">}}
 
-So, for now, we choose a regular github.com account. The next step requires from us to choose the authentication method, either via web browser or via authentication token.
+For now, let's choose a regular Github.com account. The next step requires us to choose an authentication method, either via a web browser or via an authentication token.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609533486/blog/img/topics/git/github_cli_setup/gh_auth_login-q2_xoypye.png" alt="gh auth login - q2" loading="lazy">}}
 
@@ -50,25 +50,21 @@ So, for now, we choose a regular github.com account. The next step requires from
 
 **1. Login with a web browser**
 
-The first method will provide us one-time code which we should paste in the GitHub authentication page located at {{<a href="https://github.com/login/device" target="_blank" rel="noopener noreferrer">}}github.com/login/device{{</a>}}. This will authorize our device and it will be able to access our gists, teams and repositories. 
+The first method will provide us one-time code which we should paste on the GitHub authentication page located at {{<a href="https://github.com/login/device" target="_blank" rel="noopener noreferrer">}}github.com/login/device{{</a>}}. This will authorize our device and it will be able to access our gists, teams, and repositories. 
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609546405/blog/img/topics/git/github_cli_setup/gh_auth_device-1_q8jyet.png" alt="gh auth device - 1" loading="lazy">}}
 
-If everything run smoothly, we'll see that our authentication is complete in the terminal and we need to press "Enter" to continue.
+If everything runs smoothly, we'll see the `Authentication complete` message in the terminal.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609546561/blog/img/topics/git/github_cli_setup/gh_auth_device-2_ea6swc.png" alt="gh auth device - 2" loading="lazy">}}
 
 **2. Login with an authentication token**
 
-The second method of login can be achieved by generating personal authentication token in GitHub. To do that, we should go to {{<a href="https://github.com/settings/tokens" target="_blank" rel="noopener noreferrer">}}github.com/settings/tokens{{</a>}}.
+The second login method can be achieved by generating a personal authentication token in GitHub. To do that, we should go to {{<a href="https://github.com/settings/tokens" target="_blank" rel="noopener noreferrer">}}github.com/settings/tokens{{</a>}}.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609547977/blog/img/topics/git/github_cli_setup/gh_auth_token-1_bo1zak.png" alt="gh auth token - 1" loading="lazy">}}
 
-Once we click the "Generate new token" button, new window will open where we should describe the token and choose the permission scopes.
-
-{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609632632/blog/img/topics/git/github_cli_setup/gh_auth_token-2_fss1q2.png" alt="gh auth token - 2" loading="lazy">}}
-
-GitHub CLI requires from us to have at minimum `repo` and `read:org` permission scopes.
+Once we click on the "Generate new token" button, a new window will open where we should describe the token and choose the permission scopes. GitHub CLI requires us to have at minimum `repo` and `read:org` permission scopes.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1609633287/blog/img/topics/git/github_cli_setup/gh_auth_token-3_awuzxb.png" alt="gh auth token - 3" loading="lazy">}}
 
@@ -78,9 +74,9 @@ We can now copy our newly generated token and paste it in the terminal.
 
 &nbsp;
 
-**The last step: choosing the git protocol**
+**The last step: choosing a git protocol**
 
-Now, when we are authorized either via web browser or auth token, we can move to the last step, where we choose the Git protocol being used to interact with the GitHub host. We have two options there: HTTPS and SSH. I prefer to use SSH. If everything run smoothly, we'll be able to verify that we are logged in by running the following command in the terminal:
+Now, when we are authorized either via a web browser or an auth token, we can move to the last step, where we choose a Git protocol being used to interact with the GitHub host. We have two options there: HTTPS and SSH. I prefer to use SSH. If everything runs smoothly, we'll be able to verify that we are logged in by running:
 
 {{< highlight bash >}}
 
@@ -92,4 +88,4 @@ Now, when we are authorized either via web browser or auth token, we can move to
 
 &nbsp;
 
-Whola! Phew... 🥴
+Whola! The setup is finished now. Phew... 🥴
