@@ -1,10 +1,10 @@
 ---
 title: "Making Screenshots in Linux Using Terminal - Part 2"
-date: 2021-01-06T00:00:00+04:00
-draft: true
+date: 2021-01-06T22:00:00+04:00
+publishdate: 2021-01-06T22:00:00+04:00
 ---
 
-In the [previous part](/blog/linux/making-screenshots-in-linux-using-terminal-part-1/) we saw how to make screenshots in terminal using the `xwd` command. In this part we'll meet the `import` command.
+In the [previous part](/blog/linux/making-screenshots-in-linux-using-terminal-part-1/), we saw how to make screenshots in the terminal by using the `xwd` command. In this part, we'll meet the `import` command.
 
 [Part 1 here. 🔗](/blog/linux/making-screenshots-in-linux-using-terminal-part-1/)
 
@@ -21,7 +21,7 @@ The `import` command is part of `imagemagick` package. To install it, under Debi
 {{< / highlight >}}
 
 
-As for `xwd`, `import` also relies on {{<a href="https://linux.die.net/man/7/x" target="_blank" rel="noopener noreferrer">}}X Window System{{</a>}}.
+As for `xwd`, `import` also relies on the {{<a href="https://linux.die.net/man/7/x" target="_blank" rel="noopener noreferrer">}}X Window System{{</a>}}.
 
 {{< highlight bash >}}
 
@@ -29,7 +29,7 @@ As for `xwd`, `import` also relies on {{<a href="https://linux.die.net/man/7/x" 
 
 {{< / highlight >}}
 
-The command above will provide us a pointer to select the window we want to make a screenshot of. Unlike `xwd`, where the foreground windows were being captured as well, the `import` command will capture only the window we select, and even if there is another window in the foreground, it will be omitted. This is a big plus over `xwd`, if you think about it. 🙃
+The command above will provide us a pointer to select the window we want to take a screenshot of. Unlike `xwd`, where the foreground windows were being captured as well, the `import` command will capture only the window we select, and even if there is another window in the foreground, it will be omitted. This is a big plus over `xwd`, if you think about it. 🙃
 
 To include the window frame in the screenshot we use the `frame` flag again, like this:
 
@@ -41,7 +41,7 @@ To include the window frame in the screenshot we use the `frame` flag again, lik
 
 ![import - include window frame](https://res.cloudinary.com/oorkan/image/upload/v1600306477/blog/img/topics/linux/xwd_screenshot_illustration-2-480x_tcg3zd.png)
 
-To make a screenshot of the entire screen we can use the `window` flag. **Note:** when using the window flag, we should provide a window id as well. In the example below, window id equals to `root` since we want to capture the whole screen.
+To make a screenshot of the entire screen we can use the `window` flag. **Note:** when using the `window` flag, we should provide a window id as well. In the example below, window id equals to `root` since we want to capture the whole screen.
 
 {{< highlight bash >}}
 
@@ -57,7 +57,7 @@ The same result can be achieved by using the `screen` flag, this time with point
 
 {{< / highlight >}}
 
-Another big plus over `xwd` is that `import` supports windows background transparency when capturing an entire screen.
+Another big plus over `xwd` is that `import` supports window background transparency when capturing an entire screen.
 
 &nbsp;
 
@@ -81,7 +81,7 @@ The full list of image formats ImageMagick supports can be found here:
 
 **🍰 The cherry on the cake: selecting a custom area to grab**
 
-It's very common for a GUI client to have a way to select a custom area to grab when taking a screenshot. But for a CLI command this is a really cool feature.
+It's very common for a GUI client to have a way to select a custom area to grab when taking a screenshot. But for a CLI command, this is a really cool feature.
 
 {{< highlight bash >}}
 
@@ -89,7 +89,7 @@ It's very common for a GUI client to have a way to select a custom area to grab 
 
 {{< / highlight >}}
 
-The window pointer here is able to select custom area of the screen as well. 😉 
+The window pointer here is able to select a custom area of the screen as well. 😉 
 
 &nbsp;
 
