@@ -4,6 +4,7 @@ date: 2020-09-17T04:48:08+04:00
 publishdate: 2020-09-17T05:35:00+04:00
 ---
 
+[Part 2 here. 🔗](/blog/linux/making-screenshots-in-linux-using-terminal-part-2/)
 
 **Using the `xwd` command**
 
@@ -58,5 +59,5 @@ It’s important to mention that the `xwd` command doesn't talk well or, sometim
 
 &nbsp;
 
-To be continued...
+[Go to Part 2. 🔗](/blog/linux/making-screenshots-in-linux-using-terminal-part-2/)
 
