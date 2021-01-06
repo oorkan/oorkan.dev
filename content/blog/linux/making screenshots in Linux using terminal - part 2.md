@@ -12,7 +12,7 @@ In the [previous part](/blog/linux/making-screenshots-in-linux-using-terminal-pa
 
 **Using the `import` command**
 
-The `import` command is part of a `imagemagick` package. To install it, under Debian and Debian-based operating systems {{<a href="https://distrowatch.com/search.php?basedon=Debian" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}} you can run:
+The `import` command is part of `imagemagick` package. To install it, under Debian and Debian-based operating systems {{<a href="https://distrowatch.com/search.php?basedon=Debian" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}} you can run:
 
 {{< highlight bash >}}
 
