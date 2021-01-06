@@ -74,6 +74,7 @@ Since `import` is part of ImageMagick, it supports numerous formats for the outp
 - image/gif
 
 The full list of image formats ImageMagick supports can be found here:
+
 - {{<a href="https://imagemagick.org/script/formats.php" target="_blank" rel="noopener noreferrer">}}imagemagick.org/script/formats.php{{</a>}} 
 - {{<a href="https://gist.github.com/oorkan/a8bab579c590647b64dd2bb049d55d54" target="_blank" rel="noopener noreferrer">}}gist.github.com/oorkan/a8bab579c590647b64dd2bb049d55d54{{</a>}}
 
