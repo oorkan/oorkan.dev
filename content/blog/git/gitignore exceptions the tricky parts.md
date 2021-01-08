@@ -149,9 +149,13 @@ And, in `.gitignore` inside `dir1`:
 
 Don't forget to empty any directives you had for `dir1` and `dir2` in general `.gitignore` in the root directory.
 
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610137976/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex4-il_iwkrjw.png" alt="gitignore exceptions - ex 4 - illustrate" loading="lazy">}}
+
+And, `--dry-run` again, to check 🙂
+
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610131180/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex4_jxote7.png" alt="gitignore exceptions - ex 4" loading="lazy">}}
 
-Whola! There we go 🙂
+
 
 
 
