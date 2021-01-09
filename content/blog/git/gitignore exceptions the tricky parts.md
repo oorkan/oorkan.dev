@@ -1,7 +1,7 @@
 ---
 title: "gitignore exceptions: The Tricky Parts"
 date: 2021-01-09T18:00:00+04:00
-draft: true
+publishdate: 2021-01-09T18:00:00+04:00
 ---
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610202608/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/banner-640x_rfc2qq.jpg" alt="gitignore exceptions - banner" width="0" height="0" style="width:0px!important;width:0px!important;opacity:0!important;visibility:hidden!important;" loading="lazy">}}Sometimes, when pushing our changes to remote, we want to ignore everything in the directory except some files. In `.gitignore` we must use the exclamation mark **!** to do that.
 
