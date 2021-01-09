@@ -1,10 +1,9 @@
 ---
 title: "gitignore exceptions: The Tricky Parts"
-date: 2020-08-29T21:41:06+04:00
+date: 2021-01-09T18:00:00+04:00
 draft: true
 ---
-
-Sometimes, when pushing our changes to remote, we want to ignore everything in the directory except some custom files. In `.gitignore` we must use the exclamation mark **!** to do that.
+{{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610202608/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/banner-640x_rfc2qq.jpg" alt="gitignore exceptions - banner" width="0" height="0" style="width:0px!important;width:0px!important;opacity:0!important;visibility:hidden!important;" loading="lazy">}}Sometimes, when pushing our changes to remote, we want to ignore everything in the directory except some files. In `.gitignore` we must use the exclamation mark **!** to do that.
 
 &nbsp;
 
@@ -50,11 +49,11 @@ And, we want to ignore everything in `dir1` except `file1`.
   !dir1/file1
 {{< / highlight >}}
 
-🥁 Padam! And... I don't want to dissapoint you but this will not work. Don't believe me? Check it yourself:
+🥁 Padam! And... I don't want to disappoint you but this will not work. Don't believe me? Check it yourself:
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610123517/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex2_ama8wr.png" alt="gitignore exceptions - ex 2" loading="lazy">}}
 
-As you can see, only `file3` from the root folder will be added to commit above. 
+As you can see, only `file3` from the root folder will be added to commit, above. 
 
 Fortunately, the solution is pretty simple here:
 
@@ -65,9 +64,9 @@ Fortunately, the solution is pretty simple here:
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610123254/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex3_tzxhnj.png" alt="gitignore exceptions - ex 3" loading="lazy">}}
 
-With asterisk added, we say: `Ignore everything in the folder`. While, without asterisk, we say: `Ignore the folder`.
+With an asterisk added, we say: `Ignore everything in the folder`. While, without an asterisk, we say: `Ignore the folder`.
 
-When we are **not** dealing with gitignore exceptions, there's no difference using `dir/*` or just `dir`. This happens because if everything is ignored in the directory, then git will find no meaning adding it to commit. 
+When we are **not** dealing with `gitignore` exceptions, there's no difference between using `dir/*` or just `dir`. This happens, because, if everything is ignored in the directory, then git will find no meaning in adding it to commit. 
 
 But things are changing when we have exceptions in gitignore. And the reason why it's not working when we simply use `dir` is that:
 
@@ -96,7 +95,7 @@ my-app/
   └── file4
 {{< / highlight >}}
 
-And now, we want to ignore everything in `dir1` but keep the `file3` inside `dir2`. So, at the end, we only want to have `file4` and `dir1/dir2/file3` in the commit.
+And now, we want to ignore everything in `dir1` but keep the `file3` inside `dir2`. So, in the end, we only want to have `file4` and `dir1/dir2/file3` in the commit.
 
 \- Easy, here you go, boomer!
 
@@ -105,7 +104,7 @@ And now, we want to ignore everything in `dir1` but keep the `file3` inside `dir
   !dir1/dir2/file3
 {{< / highlight >}}
 
-Wait, mmm... this will not work because `dir1/*` will ignore the `dir2` as well and since it's ignored we can't readd `file3` inside of it. Give me a minute... 🤔 Maybe...
+Wait, mmm... this will not work because `dir1/*` will ignore the `dir2`, and since it's ignored we can't re-include `file3`. Give me a minute... 🤔 Maybe...
 
 {{< highlight text >}}
   dir1/dir2/*
@@ -147,7 +146,7 @@ And, in `.gitignore` inside `dir1`:
   !dir2 
 {{< / highlight >}}
 
-Don't forget to empty any directives you had for `dir1` and `dir2` in general `.gitignore` in the root directory.
+Don't forget to empty any directives you had for `dir1` and `dir2` in `.gitignore` in the root directory.
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610137976/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex4-il_iwkrjw.png" alt="gitignore exceptions - ex 4 - illustrate" loading="lazy">}}
 
@@ -155,4 +154,4 @@ And, `--dry-run` again, to check 🙂
 
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610131180/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex4_jxote7.png" alt="gitignore exceptions - ex 4" loading="lazy">}}
 
-Altough this solution works fine, I don't think using multiple `.gitignore`s at different tree levels is a good sign. I suggest to do as maximum as you can to avoid this kind of situations. Cheers! 🍾 
+Although this solution works fine, I don't think using multiple `.gitignore`s in different tree levels is a good sign. I suggest doing as maximum as you can to avoid this kind of situation. Cheers! 🍾 
