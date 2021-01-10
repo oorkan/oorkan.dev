@@ -156,3 +156,8 @@ And, `--dry-run` again, to check 🙂
 {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610131180/blog/img/topics/git/gitignore_exceptions_the_tricky_parts/gitignore-exceptions-ex4_jxote7.png" alt="gitignore exceptions - ex 4" loading="lazy">}}
 
 Although this solution works fine, I don't think using multiple `.gitignore`s in different tree levels is a good sign. I suggest doing as maximum as you can to avoid this kind of situation. Cheers! 🍾 
+
+&nbsp;
+&nbsp;
+
+{{<small>}}Icons made by {{<a href="https://www.flaticon.com/authors/dinosoftlabs" target="_blank" rel="noopener noreferrer">}}DinosoftLabs{{</a>}} and {{<a href="https://www.flaticon.com/authors/smalllikeart" target="_blank" rel="noopener noreferrer">}}smalllikeart{{</a>}} from {{<a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">}}flaticon.com{{</a>}}.{{</small>}}
