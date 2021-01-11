@@ -53,3 +53,5 @@ This will define just an empty Canvas 480px wide and 320px tall. To start drawin
 <!-- {{<img src="https://res.cloudinary.com/oorkan/image/upload/v1610373068/blog/img/topics/html5/up_and_running_with_canvas/draw_line_jv1y9y.png" alt="Draw Line" loading="lazy">}} -->
 
 &nbsp;
+
+**Task 3 - Paths**
