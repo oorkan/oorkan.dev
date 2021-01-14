@@ -99,3 +99,7 @@ As you can see, the horizontal line fills with the color we set on line 16 inste
 {{<canvas width="480" height="320" id="mycanvas6">}}
   <script async>(function(){const canvas=document.getElementById("mycanvas6"),ctx=canvas.getContext("2d");ctx.fillStyle="#191919",ctx.fillRect(0,0,canvas.width,canvas.height),ctx.lineWidth="4",ctx.beginPath(),ctx.strokeStyle="#0A84FF",ctx.moveTo(50,192),ctx.lineTo(250,192),ctx.lineTo(250,50),ctx.closePath(),ctx.stroke();}())</script>
 {{</canvas>}}
+
+&nbsp;
+
+**§ 5 Curves**
