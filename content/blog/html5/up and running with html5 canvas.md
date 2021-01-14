@@ -33,7 +33,7 @@ This will define just an empty Canvas 480px wide and 320px tall. To start drawin
 
 &nbsp;
 
-**Task 1 - Fill the canvas with custom background color**
+**§ 1 - Fill the canvas with custom background color**
 
 {{< gist oorkan 9e34fd9c4bfc3e82c17641359e7928aa fill_canvas.htm >}}
 
@@ -43,7 +43,7 @@ This will define just an empty Canvas 480px wide and 320px tall. To start drawin
 
 &nbsp;
 
-**Task 2 - Draw a line**
+**§ 2 - Draw a line**
 
 {{< gist oorkan 9e34fd9c4bfc3e82c17641359e7928aa draw_line.htm >}}
 
@@ -54,4 +54,25 @@ This will define just an empty Canvas 480px wide and 320px tall. To start drawin
 
 &nbsp;
 
-**Task 3 - Paths**
+**§ 3 - Paths**
+
+Path is the **cornerstone concept** in Canvas. To be able to work with Canvas paths professionally, you must memorize these 4 basic statements:
+
+{{< highlight text >}}
+1. In HTML5 Canvas, a path is a group of points that are connected by straight lines or curves.
+{{< / highlight >}}
+
+{{< highlight text >}}
+2. A path has zero or more subpaths.
+{{< / highlight >}}
+
+{{< highlight text >}}
+3. `ctx.beginPath()` method creates a path.
+{{< / highlight >}}
+
+{{< highlight text >}}
+4. `ctx.moveTo()` method creates a subpath.
+{{< / highlight >}}
+
+Let's understand these statements. 
+
