@@ -89,3 +89,5 @@ Let's comment out the code on line 15 and see what happens.
 {{</canvas>}}
 
 As you can see, the horizontal line fills with the color we set on line 16 instead of filling blue. This happens because by commenting the line 15, we still inside the first path and even if we already draw the 1st line it will be re-drawn by the stroke() method on line 19, this time using the new color we specify for the stroke.
+
+**§ 3.1 The closePath() method**
