@@ -74,5 +74,18 @@ Path is the **cornerstone concept** in Canvas. To be able to work with Canvas pa
 4. `ctx.moveTo()` method creates a subpath.
 {{< / highlight >}}
 
-Let's understand these statements. 
+{{< gist oorkan 9e34fd9c4bfc3e82c17641359e7928aa paths1.htm >}}
 
+{{<canvas width="480" height="320" id="mycanvas4">}}
+  <script async>(function(){const canvas=document.getElementById("mycanvas4"),ctx=canvas.getContext("2d");ctx.fillStyle="#191919",ctx.fillRect(0,0,canvas.width,canvas.height),ctx.lineWidth="4",ctx.beginPath(),ctx.strokeStyle="#0A84FF",ctx.moveTo(50,192),ctx.lineTo(250,192),ctx.stroke(),ctx.beginPath(),ctx.strokeStyle="#23D16F",ctx.moveTo(300,192),ctx.lineTo(300,50),ctx.stroke();}())</script>
+{{</canvas>}}
+
+Let's comment out the code on line 15 and see what happens.
+
+{{< gist oorkan 9e34fd9c4bfc3e82c17641359e7928aa paths2.htm >}}
+
+{{<canvas width="480" height="320" id="mycanvas5">}}
+  <script async>(function(){const canvas=document.getElementById("mycanvas5"),ctx=canvas.getContext("2d");ctx.fillStyle="#191919",ctx.fillRect(0,0,canvas.width,canvas.height),ctx.lineWidth="4",ctx.beginPath(),ctx.strokeStyle="#0A84FF",ctx.moveTo(50,192),ctx.lineTo(250,192),ctx.stroke(),ctx.strokeStyle="#23D16F",ctx.moveTo(300,192),ctx.lineTo(300,50),ctx.stroke();}())</script>
+{{</canvas>}}
+
+As you can see, the horizontal line fills with the color we set on line 16 instead of filling blue. This happens because by commenting the line 15, we still inside the first path and even if we already draw the 1st line it will be re-drawn by the stroke() method on line 19, this time using the new color we specify for the stroke.
