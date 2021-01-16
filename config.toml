@@ -20,4 +20,5 @@ paginate = 15
 pluralizelisttitles = "false"
 
 [params]
+    logo = "https://res.cloudinary.com/oorkan/image/upload/v1609088270/blog/img/general/logo_rjw6md.jpg"
     gid = "UA-176760402-2"

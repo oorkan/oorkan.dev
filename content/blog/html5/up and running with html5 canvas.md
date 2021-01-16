@@ -103,3 +103,32 @@ As you can see, the horizontal line fills with the color we set on line 16 inste
 &nbsp;
 
 **§ 5 Curves**
+
+Basically, there are 5 methods to draw curves in HTML5 Canvas:
+
+{{< highlight text >}}
+1. ctx.arc()
+{{< / highlight >}}
+
+{{< highlight text >}}
+2. ctx.arcTo()
+{{< / highlight >}}
+
+{{< highlight text >}}
+3. ctx.ellipse()
+{{< / highlight >}}
+
+{{< highlight text >}}
+4. ctx.bezierCurveTo()
+{{< / highlight >}}
+
+{{< highlight text >}}
+5. ctx.quadraticCurveTo()
+{{< / highlight >}}
+
+**ctx.arc()**
+
+This method draws a circular arc.
+
+
+
