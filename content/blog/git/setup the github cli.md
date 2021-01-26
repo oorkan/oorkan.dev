@@ -2,6 +2,7 @@
 title: "Setup the GitHub CLI"
 date: 2021-01-04T17:30:00+04:00
 publishdate: 2021-01-04T17:30:00+04:00
+description: "Need some help on how to setup the Github CLI on your machine? Check out this guide."
 ---
 
 **Installation**

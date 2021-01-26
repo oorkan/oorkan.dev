@@ -2,6 +2,7 @@
 title: "Support CSS Variables in Old Browsers Using SCSS"
 date: 2020-04-19T17:25:48+04:00
 publishdate: 2020-04-19T17:25:48+04:00
+description: "How to support CSS variables in old browsers using SCSS and fallbacks."
 ---
 
 {{< gist oorkan 9f71b3264401db58f9ec625d66593bb9 >}}

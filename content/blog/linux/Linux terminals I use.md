@@ -2,6 +2,7 @@
 title: "Linux Terminals I Use"
 date: 2020-04-19T20:49:56+04:00
 publishdate: 2020-04-19T20:49:56+04:00
+description: "My preferences over different Linux terminals."
 ---
 
 Guake Terminal -> {{<a href="http://guake.org/" target="_blank" rel="noopener noreferrer">}}guake.org{{</a>}}

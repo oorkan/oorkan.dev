@@ -2,6 +2,7 @@
 title: "W3Schools Tryit Editor Features"
 date: 2020-04-26T19:54:01+04:00
 publishdate: 2020-04-26T21:19:00+04:00
+description: "W3Schools features many aren't aware of. Use W3Schools Tryit Editor at its best, quickly create and share HTML, CSS, and JavaScript snippets online."
 ---
 
 {{<a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">}}W3Schools{{</a>}} Tryit Editor is a good built-in tool to quickly review some HTML and CSS, for example. But few of us use the awesome features it has. With these features, it can serve you as a light-weight version of {{<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">}}CodePen{{</a>}}.

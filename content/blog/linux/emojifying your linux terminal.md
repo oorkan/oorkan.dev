@@ -2,6 +2,7 @@
 title: "Emojifying Your Linux Terminal"
 date: 2019-08-17T03:34:43+04:00
 publishdate: 2019-08-17T03:34:43+04:00
+description: "Want to make your work environment a little bit nicer? Learn how to insert emojis in your Linux terminal and get enjoyment every time you work in it."
 ---
 
 All of us wish to express their individualism. Customizing the tools we use is one of the ways to do it. This article will show how we can make our Linux terminal more interesting and user-friendly by tweaking it a little with some nice emoji.

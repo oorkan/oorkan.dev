@@ -2,6 +2,7 @@
 title: "Google Style Guides"
 date: 2020-04-19T17:59:31+04:00
 publishdate: 2020-04-19T17:59:31+04:00
+description: "Styling your code using Google standards. Style guides by Google for C++, Swift, Objective-C, Java, Python, R, Shell Script, HTML, CSS, JavaScript, AngularJS, Common Lisp, Vim, and more."
 ---
 
 From Google:

@@ -2,6 +2,7 @@
 title: "Format 'docker ps' Command Output Nicely"
 date: 2020-05-27T08:51:38+04:00
 publishdate: 2020-05-27T08:51:38+04:00
+description: "Formatting the docker ps command output using Go. docker ps --format=vertical."
 ---
 
 Run the following command in your terminal:

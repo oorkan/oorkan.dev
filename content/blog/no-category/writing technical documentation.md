@@ -2,6 +2,7 @@
 title: "Writing Technical Documentation"
 date: 2020-04-13T07:25:19+04:00
 publishdate: 2020-04-08T16:00:13+04:00
+description: "Google standards on writing technical documentations. Improving your technical documentation. Technical writing courses from Google."
 ---
 
 

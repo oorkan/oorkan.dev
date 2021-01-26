@@ -2,6 +2,7 @@
 title: "The Zen of Python"
 date: 2020-05-27T01:34:41+04:00
 publishdate: 2020-05-27T01:34:41+04:00
+description: "The set of Python rules and philosophy behind the language by Tim Peters."
 ---
 
 Run `python -c "import this"` in terminal.

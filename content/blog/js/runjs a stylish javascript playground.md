@@ -2,6 +2,7 @@
 title: "RunJS: A Stylish JavaScript Playground"
 date: 2020-04-24T23:11:42+04:00
 draft: 2020-04-24T23:11:42+04:00
+description: "Testing your JavaScript code right away with RunJS."
 ---
 
 {{<a href="https://runjs.dev/" target="_blank" rel="noopener noreferrer">}}

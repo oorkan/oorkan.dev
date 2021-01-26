@@ -2,6 +2,7 @@
 title: "RGB Color Model Illustration"
 date: 2020-04-13T07:51:12+04:00
 draft: 2020-04-13T07:51:12+04:00
+description: "A tiny experiment that everyone can repeat at home, showing how the RGB color model works."
 ---
 
 

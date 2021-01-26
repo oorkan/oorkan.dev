@@ -2,6 +2,7 @@
 title: "How to Reboot or Shutdown From Terminal in Linux"
 date: 2020-04-30T04:27:00+04:00
 publishdate: 2020-04-30T04:27:00+04:00
+description: "A complete guide on how to use reboot and shutdown commands in Linux."
 ---
 
 In all examples, we need to be `root` or use the command with `sudo`.
