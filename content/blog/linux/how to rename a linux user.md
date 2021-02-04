@@ -21,7 +21,7 @@ Then, we need to set a home directory for our new user:
 🚀 ~ usermod -md /home/<new_username> <new_username>
 {{< / highlight >}}
 
-Here, the `-d` flag here sets the home directory for our new user, and the `-m` flag moves all contents from the old user's home directory.
+Here, the `-d` flag sets the home directory for our new user, and the `-m` flag moves all contents from the old user's home directory.
 
 We also need to change the user's default group, which is the same as the username in most cases:
 
