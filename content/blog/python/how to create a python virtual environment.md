@@ -1,17 +1,18 @@
 ---
 title: "How to Create a Python Virtual Environment"
 date: 2021-03-19T06:19:30+04:00
-draft: true
+publishdate: 2021-03-19T13:10:00+04:00
+description: "Creating a virtual environment for python: setup, activation, deactivation, nuances."
 ---
 
-When working with Python, often we need to use different packages and modules. Some of them are part of the Python's Standard Library but many of them are not. On the other hand, we may need a specific version of a custom module for our app. Upgrading or downgrading to that version for a whole system is a risky idea because it can break other applications that are dependant on a specific version of a module.
+When working with Python, often we need to use different packages and modules. Some of them are part of {{<a hef="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}Python's Standard Library{{</a>}} but many of them are not. On the other hand, we may need a specific version of a custom module for our app. Upgrading or downgrading to that version for a whole system is a risky idea because it can break other applications that are dependant on a specific version of a module.
 
-Virtual Environments are here to help us. Starting from Python version 3.3, a module called `venv` was added to the language spec, allowing users to setup a python virtual environment natively and supported by the python development team.
-See PEP 405.
+Virtual Environments are here to help us. Starting from Python version 3.3, a module called `venv` was added to the language spec, allowing users to set up a Python virtual environment more natively and supported by the Python development team. 
+{{<a href="https://www.python.org/dev/peps/pep-0405/" target="_blank" rel="noopener noreferrer">}}See PEP 405{{</a>}}.
 
-Before the version 3.3 this was only possible via installing 3rd-party packages, primarily Ian Bicking's virtualenv.
+Before version 3.3 this was only possible via installing 3rd-party packages, primarily Ian Bicking's {{<a href="https://virtualenv.pypa.io/en/latest/" target="_blank" rel="noopener noreferrer">}}virtualenv{{</a>}}. Although, these 3rd-party packages are still popular and in use, Python officially recommends the use of `venv` for creating virtual environments since version 3.5.
 
-First of all, you need to make sure that you have python3-venv package installed on your system. Under Debian and Debian-based OS, you have to run:
+First of all, if you are a Debian or Debian-based OS user {{<a href="https://distrowatch.com/search.php?basedon=Debian" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}}, you need to make sure that you have the python3-venv package installed on your system:
 
 {{< highlight bash >}}
 🚀 ~ sudo apt install python3-venv
@@ -23,7 +24,7 @@ The creation of a typical virtual environment for Python looks like this:
 🚀 ~ python3 -m venv /path/to/new/virtual/environment
 {{< / highlight >}}
 
-Often, a python virtual environment is installed in the current working directory and named `venv` or `.venv`. Some IDEs, like PyCharm, support automatic setup of such virtual environments. Let's create our virtual environment and name it `venv`.
+Often, a Python virtual environment is installed in the current working directory and named `venv` or `.venv`. Some IDEs, like {{<a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer">}}PyCharm{{</a>}}, support an automatic setup of such virtual environments. Let's create our virtual environment and name it `venv`.
 
 {{< highlight bash >}}
 🚀 ~ python3 -m venv venv
@@ -51,7 +52,7 @@ Notice the change in your terminal, it now contains a mark `(venv)` at the begin
 (venv) 🚀 ~ 
 {{< / highlight >}}
 
-This means that you are running inside a virtual environment. If you do `python3 -c "import site; print(site.PREFIXES)"` here, you'll see that python3 site packages directory prefix points to your virtual environment and not system's default one. You can now start installing packages or specific versions of packages via `pip3` to your virtual environment. They will be isolated from the rest of the system.
+This means that you are running inside a virtual environment. If you do `python3 -c "import site; print(site.PREFIXES)"` here, you'll see that python3 site-packages directory prefix points to your virtual environment and not the system's default one. You can now start installing packages or specific versions of packages via `pip3` to your virtual environment. They will be isolated from the rest of the system.
 
 To exit from a virtual environment, you need to run the following command inside that virtual environment:
 
@@ -61,4 +62,21 @@ To exit from a virtual environment, you need to run the following command inside
 
 &nbsp;
 
-In some sense, a python virtual environment is similar to a Linux jail, except that in Linux jail you have completely self-contained, independant binaries while in python virtual environment your python3 binary is just a symlink to a system's default, typically located under /usr/bin/python3. Also, in Linux jail you run from within a jail and don't have access to the outside system while in python virtual environment all system commands and directories are still available and the real magic happens during the activation step when the program modifies the user's $PATH variable, and overrides the default paths/locations to python and pip binaries.
+In some sense, a Python virtual environment created with `venv` is similar to a Linux jail, except that in Linux jail you have completely self-contained, independent binaries while in Python virtual environment your python binary is just a symlink to the system's default, typically located under /usr/bin/ directory. Also, in Linux jail, you run from within the jail and don't have access to the outside system while in Python virtual environment all system commands and directories are still available and the real magic happens during the activation step when the program modifies the user's $PATH variable and "overrides" the default paths/locations to python and pip binaries.
+
+
+&nbsp;
+
+**{{<small>}}References{{</small>}}**
+
+{{<small>}}{{<a href="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}The Python Standard Library (@3.9, lup: March 18, 2021){{</a>}}{{</small>}}&nbsp;
+
+{{<small>}}{{<a href="https://docs.python.org/3/library/venv.html" target="_blank" rel="noopener noreferrer">}}venv — Creation of virtual environments (@3.9, lup: March 18, 2021){{</a>}}{{</small>}}&nbsp;
+
+{{<small>}}{{<a href="https://www.python.org/dev/peps/pep-0405/" target="_blank" rel="noopener noreferrer">}}PEP 405 -- Python Virtual Environments by Carl Meyer (June 13, 2011){{</a>}}{{</small>}}&nbsp;
+
+{{<small>}}{{<a href="https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment" target="_blank" rel="noopener noreferrer">}}Installing packages using pip and virtual environments | Creating a virtual environment (@3.9, lup: March 18, 2021){{</a>}}{{</small>}}&nbsp;
+
+{{<small>}}{{<a href="https://docs.python.org/3/library/site.html" target="_blank" rel="noopener noreferrer">}}site — Site-specific configuration hook (@3.9, lup: March 18, 2021){{</a>}}{{</small>}}&nbsp;
+
+{{<small>}}{{<a href="https://python-reference.readthedocs.io/en/latest/docs/operators/semicolon.html" target="_blank" rel="noopener noreferrer">}}; Statement Separator by Jakub Przywóski (2015){{</a>}}{{</small>}}
