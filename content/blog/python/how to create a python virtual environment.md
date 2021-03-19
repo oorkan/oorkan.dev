@@ -5,7 +5,7 @@ publishdate: 2021-03-19T13:10:00+04:00
 description: "Creating a virtual environment for python: setup, activation, deactivation, nuances."
 ---
 
-When working with Python, often we need to use different packages and modules. Some of them are part of {{<a hef="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}Python's Standard Library{{</a>}} but many of them are not. On the other hand, we may need a specific version of a custom module for our app. Upgrading or downgrading to that version for a whole system is a risky idea because it can break other applications that are dependant on a specific version of a module.
+When working with Python, often we need to use different packages and modules. Some of them are part of {{<a href="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}Python's Standard Library{{</a>}} but many of them are not. On the other hand, we may need a specific version of a custom module for our app. Upgrading or downgrading to that version for a whole system is a risky idea because it can break other applications that are dependant on a specific version of a module.
 
 Virtual Environments are here to help us. Starting from Python version 3.3, a module called `venv` was added to the language spec, allowing users to set up a Python virtual environment more natively and supported by the Python development team. 
 {{<a href="https://www.python.org/dev/peps/pep-0405/" target="_blank" rel="noopener noreferrer">}}See PEP 405{{</a>}}.
