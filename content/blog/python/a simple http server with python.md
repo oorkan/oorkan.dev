@@ -1,16 +1,17 @@
 ---
-title: "Creating a Simple Http Server With Python"
+title: "A Simple Http Server With Python"
 date: 2021-03-19T00:09:10+04:00
 draft: true
 ---
 
-Although, in this article we aren't gonna need it but it's always good to setup a virtual environment in python. Check out my article on how to create virtual environments in python.
+Although, in this article we aren't gonna need it but it's always good to setup a virtual environment when working with Python. Check out my article on how to create a virtual environments for python:
+{{<a href="https://www.oorkan.dev/blog/python/how-to-create-a-python-virtual-environment/" target="_blank" rel="noopener noreferrer">}}/blog/python/how-to-create-a-python-virtual-environment/{{</a>}}.
 
-We are going to use two modules called `http.server` and `socketserver`. They are both part of Python3's standard library so we don't need to install them.
+To create a simple python http server, we are going to use two modules called `http.server` and `socketserver`. They both are a part of Python's Standard Library, we don't need to install them.
 
 Lets create our Server class:
 
-{{< highlight python >}}
+{{< highlight python "linenos=table" >}}
 # server.py
 import socketserver
 from http.server import SimpleHTTPRequestHandler
@@ -18,16 +19,13 @@ from http.server import SimpleHTTPRequestHandler
 
 class Server:
     def __init__(self,
-                 host='127.0.0.1', port=0,
+                 server_address=('127.0.0.1', 0),
                  handler=SimpleHTTPRequestHandler):
-        self.host = host
-        self.port = port
+        self.server_address = server_address
         self.handler = handler
 
     def serve(self):
-        server_address = (self.host, self.port)
-
-        with socketserver.TCPServer(server_address, self.handler) as httpd:
+        with socketserver.TCPServer(self.server_address, self.handler) as httpd:
             serving_at = httpd.server_address
 
             print(f'serving at http://{serving_at[0]}:{serving_at[1]}')
