@@ -1,6 +1,6 @@
 ---
 title: "A Simple Python HTTP Server"
-date: 2021-03-19T00:09:10+04:00
+date: 2021-03-21T10:30:00+04:00
 publishdate: 2021-03-21T10:30:00+04:00
 description: "Creating a Simple HTTP Server with Python using the socketserver and http.server modules from the Standard Library."
 ---
