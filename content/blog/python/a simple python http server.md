@@ -190,7 +190,7 @@ I hope you enjoyed it. Cheers! 🍻
 
 {{<small>}}{{<a href="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}The Python Standard Library (@3.9, lup: March 20, 2021){{</a>}}{{</small>}}&nbsp;
 
-{{<small>}}{{<a href="" target="_blank" rel="noopener noreferrer">}}socketserver — A framework for network servers (@3.9, lup: March 20, 2021){{</a>}}{{</small>}}&nbsp;
+{{<small>}}{{<a href="https://docs.python.org/3/library/socketserver.html" target="_blank" rel="noopener noreferrer">}}socketserver — A framework for network servers (@3.9, lup: March 20, 2021){{</a>}}{{</small>}}&nbsp;
 
 {{<small>}}{{<a href="https://docs.python.org/3/library/http.server.html" target="_blank" rel="noopener noreferrer">}}http.server — HTTP servers (@3.9, lup: March 20, 2021){{</a>}}{{</small>}}&nbsp;
 
