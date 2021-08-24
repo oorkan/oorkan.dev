@@ -3,6 +3,7 @@ title: "How to Create a Python Virtual Environment"
 date: 2021-03-19T06:19:30+04:00
 publishdate: 2021-03-19T13:10:00+04:00
 description: "Creating a virtual environment for python: setup, activation, deactivation, nuances."
+tags: ["python"]
 ---
 
 When working with Python, often we need to use different packages and modules. Some of them are part of {{<a href="https://docs.python.org/3/library/index.html" target="_blank" rel="noopener noreferrer">}}Python's Standard Library{{</a>}} but many of them are not. On the other hand, we may need a specific version of a custom module for our app. Upgrading or downgrading to that version for a whole system is a risky idea because it can break other applications that are dependant on a specific version of a module.

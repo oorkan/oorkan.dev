@@ -3,6 +3,7 @@ title: "Controlling the Time Settings in Linux via timedatectl"
 date: 2020-09-20T07:35:00+04:00
 publishdate: 2020-09-20T07:35:00+04:00
 description: "Managing the time settings in Linux with timedatectl service. Changing time and timezone. Synchronization of OS time with network time via NTP protocol."
+tags: ["linux"]
 ---
 
 If our Linux OS has been booted using `systemd`, we can use a program called `timedatectl` to control its time settings. `timedatectl` is a utility of the `systemd` service manager and won't be available in systems that aren't using it {{<a href="https://distrowatch.com/search.php?defaultinit=Not+systemd" target="_blank" rel="noopener noreferrer">}}🔗{{</a>}}. When typing `timedatectl status` in the terminal, it will show us the current time settings, like local time, time zone, network time synchronization, etc. Most of the systems, if not all, will pick this command as the default, and we can simply run `timedatectl` instead.

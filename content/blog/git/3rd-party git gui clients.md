@@ -3,6 +3,7 @@ title: "3rd-party Git GUI Clients"
 date: 2020-08-29T21:51:40+04:00
 publishdate: 2020-08-29T23:51:40+04:00
 description: "A brief overview of available GUI clients to work with Git."
+tags: ["git"]
 ---
 
 The full list is available at {{<a href="https://git-scm.com/downloads/guis/" target="_blank" rel="noopener noreferrer">}}git-scm.com/downloads/guis/{{</a>}}. 

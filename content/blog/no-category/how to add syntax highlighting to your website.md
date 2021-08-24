@@ -3,6 +3,8 @@ title: "How to Add Syntax Highlighting to Your Website"
 date: 2021-01-19T18:00:00+04:00
 publishdate: 2021-01-19T18:00:00+04:00
 description: "Support syntax highlighting in your website using Chroma"
+image: "/img/how-to-add-syntax-highlighting-to-your-website.png"
+tags: ["html", "css"]
 ---
 
 If you have a programming blog, like me, or your website contains code examples and explanatory content, you may want to support syntax highlighting on your pages. There are many solutions and workarounds available, but the most flexible, to me, is using Chroma.
