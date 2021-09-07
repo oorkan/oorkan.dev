@@ -26,4 +26,4 @@ pluralizelisttitles = "false"
     darkMode = true
     postSharing = true
     postcardPlaceholderImage = "https://res.cloudinary.com/oorkan/image/upload/c_scale,w_320/v1631026864/blog/img/general/cat-with-camera_cqzb7g.png"
-    postcardimageScaleFactor = 320
+    postcardimageScale = 320
