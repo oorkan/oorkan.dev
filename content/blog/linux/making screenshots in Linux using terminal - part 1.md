@@ -3,6 +3,7 @@ title: "Making Screenshots in Linux Using Terminal - Part 1"
 date: 2020-09-17T04:48:08+04:00
 publishdate: 2020-09-17T05:35:00+04:00
 description: "Make screenshots directly from your terminal in Linux using the xwd command."
+tags: ["linux"]
 ---
 
 [Part 2 here. 🔗](/blog/linux/making-screenshots-in-linux-using-terminal-part-2/)

@@ -3,6 +3,7 @@ title: "Make Your Life Easier With Z Script"
 date: 2020-09-26T00:16:00+04:00
 publishdate: 2020-09-26T00:16:00+04:00
 description: "Be more productive by automating your terminal with Z script. Jump through different directories easily without losing the track."
+tags: ["linux"]
 ---
 
 When working in terminal, we often need to jump through different directories. Keeping the track of directories we've changed to can be a tough task. One option can be using the `history` command in Linux:

@@ -3,6 +3,7 @@ title: "How to Rename a Linux User"
 date: 2021-02-04T21:20:00+04:00
 publishdate: 2021-02-04T21:20:00+04:00
 description: "Renaming a Linux user: the correct way."
+tags: ["linux"]
 ---
 
 What if after installing a Linux OS you found that you made a typo in the username. Reinstalling the whole OS just to fix a typo doesn't sound rational.

@@ -3,6 +3,7 @@ title: "Will Programmers Lose Their Jobs Because of GPT3"
 date: 2020-08-06T12:27:48+04:00
 publishdate: 2020-08-06T12:27:48+04:00
 description: "My thoughts about AI and ML, in general. Philosophical essay about how new technologies will affect the world of software development, programming jobs, and salaries."
+tags: ["ai"]
 ---
 
 I heard about GPT3 a few days ago via а post on Twitter shared by {{<a href="https://twitter.com/_ericelliott" target="_blank" rel="noopener noreferrer">}}Eric Eliott{{</a>}} - a well-known professional in the JavaScript world.

@@ -3,6 +3,8 @@ title: "A Simple Python HTTP Server"
 date: 2021-03-21T10:30:00+04:00
 publishdate: 2021-03-21T10:30:00+04:00
 description: "Creating a Simple HTTP Server with Python using the socketserver and http.server modules from the Standard Library."
+image: "https://res.cloudinary.com/oorkan/image/upload/v1631028431/blog/img/topics/python/a_simple_python_http_server/a-simple-python-http-server_ybjium.jpg"
+tags: ["python"]
 ---
 
 Although, we aren't gonna need it in this article but it's always good to setup a virtual environment when working with Python. Check out my article on how to create a virtual environment for Python:

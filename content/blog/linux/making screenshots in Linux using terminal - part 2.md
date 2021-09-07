@@ -3,6 +3,7 @@ title: "Making Screenshots in Linux Using Terminal - Part 2"
 date: 2021-01-06T22:00:00+04:00
 publishdate: 2021-01-06T22:00:00+04:00
 description: "Make screenshots directly from your terminal in Linux using the import command."
+tags: ["linux"]
 ---
 
 In the [previous part](/blog/linux/making-screenshots-in-linux-using-terminal-part-1/), we saw how to make screenshots in the terminal by using the `xwd` command. In this part, we'll meet the `import` command.
