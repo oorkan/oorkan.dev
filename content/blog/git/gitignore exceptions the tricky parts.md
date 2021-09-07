@@ -7,6 +7,8 @@ image: "https://res.cloudinary.com/oorkan/image/upload/v1610149220/blog/img/topi
 tags: ["git"]
 ---
 
+
+
 Sometimes, when pushing our changes to remote, we want to ignore everything in the directory except some files. In `.gitignore` we must use the exclamation mark **!** to do that.
 
 &nbsp;
