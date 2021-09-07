@@ -3,7 +3,7 @@ title: "How to Add Syntax Highlighting to Your Website"
 date: 2021-01-19T18:00:00+04:00
 publishdate: 2021-01-19T18:00:00+04:00
 description: "Support syntax highlighting in your website using Chroma"
-image: "/img/how-to-add-syntax-highlighting-to-your-website.png"
+image: "https://res.cloudinary.com/oorkan/image/upload/v1631028238/blog/img/topics/html5/how_to_add_syntax_highlighting_to_your_website/how-to-add-syntax-highlighting-to-your-website_vhaiim.png"
 tags: ["html", "css"]
 ---
 

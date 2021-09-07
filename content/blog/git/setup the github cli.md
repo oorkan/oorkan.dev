@@ -3,7 +3,7 @@ title: "Setup the GitHub CLI"
 date: 2021-01-04T17:30:00+04:00
 publishdate: 2021-01-04T17:30:00+04:00
 description: "Need some help on how to setup the Github CLI on your machine? Check out this guide."
-image: "/img/setup-the-github-cli.jpg"
+image: "https://res.cloudinary.com/oorkan/image/upload/v1631028299/blog/img/topics/git/github_cli_setup/setup-the-github-cli_jttwqh.jpg"
 tags: ["git"]
 ---
 
