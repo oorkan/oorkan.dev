@@ -3,6 +3,7 @@ title: "How to display calendar in Linux terminal"
 date: 2020-04-08T07:58:05+04:00
 publishdate: 2020-04-08T07:58:05+04:00
 description: "Displaying calendar and memorable dates in Linux terminal using the cal and calendar commands."
+tags: ["linux"]
 ---
 
 

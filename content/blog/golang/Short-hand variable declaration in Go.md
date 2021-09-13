@@ -3,6 +3,7 @@ title: "Short Hand Variable Declaration in Go"
 date: 2020-04-08T12:30:38+04:00
 publishdate: 2020-04-08T12:17:37+04:00
 description: "Declaring variables in Go. Defining multiple variables in Go."
+tags: ['golang']
 ---
 
 Variables in Go can have short-hand declarations, like this:
