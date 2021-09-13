@@ -3,7 +3,7 @@ title: "How to Create a Python Virtual Environment"
 date: 2021-03-19T06:19:30+04:00
 publishdate: 2021-03-19T13:10:00+04:00
 description: "Creating a virtual environment for python: setup, activation, deactivation, nuances."
-image: "https://res.cloudinary.com/oorkan/image/upload/v1631563025/blog/img/topics/python/how_to_create_a_python_virtual_environment/python-venv_hz8syv.png"
+image: "https://res.cloudinary.com/oorkan/image/upload/v1631564231/blog/img/topics/python/how_to_create_a_python_virtual_environment/python-venv_mccbnc.png"
 tags: ["python"]
 ---
 
