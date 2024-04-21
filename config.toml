@@ -5,7 +5,27 @@ theme = "contrast-hugo-mod"
 paginate = 15
 pygmentsUseClasses = true
 
-#[menu]
+[menu]
+    [[menu.top]]
+        identifier = "topics"
+        name = "Topics"
+        url = "/tags"
+        weight = 1
+    # [[menu.top]]
+    #    identifier = "rss"
+    #    name = "RSS"
+    #    url = "/rss.xml"
+    #    weight = 3
+    # [[menu.top]]
+    #     identifier = "brochures"
+    #     name = "Brochures"
+    #     url = "/brochures"
+    #     weight = 2
+    # [[menu.top]]
+    #   identifier = "about"
+    #   name = "About"
+    #   url = "/about"
+    #   weight = 4
 #    [[menu.social]]
 #        identifier = "twitter"
 #        name = "twitter"
@@ -22,8 +42,12 @@ pluralizelisttitles = "false"
 
 [params]
     logo = "https://res.cloudinary.com/oorkan/image/upload/v1609088270/blog/img/general/logo_rjw6md.jpg"
+    logoDark = "https://res.cloudinary.com/oorkan/image/upload/v1609088270/blog/img/general/logo_rjw6md.jpg"    
+    # logo = "/triode-logo.svg"
+    # logoDark = "/triode-logo--dark.svg"
     gid = "UA-176760402-2"
     darkMode = true
     postSharing = true
-    postcardPlaceholderImage = "https://res.cloudinary.com/oorkan/image/upload/c_scale,w_320/v1631026864/blog/img/general/cat-with-camera_cqzb7g.png"
+    # postcardPlaceholderImage = "https://res.cloudinary.com/oorkan/image/upload/c_scale,w_320/v1631026864/blog/img/general/cat-with-camera_cqzb7g.png"
+    postcardPlaceholderImage = "/no-image.svg"
     postcardimageScale = 320

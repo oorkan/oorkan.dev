@@ -1,8 +1,9 @@
 # files
 /.hugo_build.lock
+*.bak
+/static/test*
+.DS_Store
 
 # dirs
 node_modules/
 /public/
-
-
