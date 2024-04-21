@@ -1,8 +1,8 @@
-node_modules
-public
-.hugo_build.lock
-static/test*
-*.bak
+# files
+/.hugo_build.lock
 
-# MacOS
-.DS_Store
+# dirs
+node_modules/
+/public/
+
+
