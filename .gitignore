@@ -1,2 +1,8 @@
-node_modules
-public
+# files
+/.hugo_build.lock
+
+# dirs
+node_modules/
+/public/
+
+
