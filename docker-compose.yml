@@ -7,6 +7,6 @@ services:
     working_dir: /srv/hugo
     volumes:
       - .:/srv/hugo
-    command: "server --bind 0.0.0.0 --baseURL http://${WLAN_IP} --templateMetrics -D"
+    command: "server --bind 0.0.0.0 --baseURL http://${WLAN_IP} --templateMetrics ${SERVE_DRAFTS}"
     ports:
       - 1313:1313
