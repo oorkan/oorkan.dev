@@ -2,8 +2,9 @@ version: "3"
 
 services:
   hugo:
-    image: chainguard/hugo:latest
-    user: "1000:1000"
+    # image: chainguard/hugo:latest
+    image: hugomods/hugo:base-0.139.5
+    # user: "1000:1000"
     working_dir: /srv/hugo
     volumes:
       - .:/srv/hugo
